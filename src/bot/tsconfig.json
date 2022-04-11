@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "removeComments": true,
+        "outDir": "./build",
+        "baseUrl": ".",
+        "paths": {
+            "@base/*": [
+                "src/base/*"
+            ],
+            "@baseTypes/*": [
+                "src/base/types/*"
+            ],
+            "@classes/*": [
+                "src/base/classes/*"
+            ],
+            "@schema/*": [
+                "src/base/schema/*"
+            ],
+            "@interactions/*": [
+                "src/interactions/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ],
+            "@assets/*": [
+                "src/assets/*"
+            ],
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*"
+    ]
+}
